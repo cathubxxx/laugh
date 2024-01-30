@@ -10,6 +10,7 @@
 .insideApp {
   background-image: url('./assets/bg.png');
   overflow: hidden;
+  text-align: center;
 }
 .main {
   display: flex;
