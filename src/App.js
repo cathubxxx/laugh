@@ -26,8 +26,8 @@ function App() {
             Your browser does not support the video tag.
           </video>
           <div className="socialBlock">
-          <img className="social" alt="telegram" src={tg}/>
-          <img className="logo" alt="twitter" src={tw}/>
+            <a href="https://t.me/nabilsebtisol"><img className="social" alt="telegram" src={tg}/></a>
+            <a href="https://twitter.com/nabilsebtisol"><img className="logo" alt="twitter" src={tw}/></a>
         </div>
           </div>
           <div className="right mainImg">
@@ -35,7 +35,7 @@ function App() {
           </div>
         </div>
         <div className="buttonBlock">
-          <button className="button">BUY {ticker}</button>
+          <a href="https://raydium.io/"><button className="button">BUY {ticker}</button></a>
         </div>
         <div className="runningBlock">
           <div className="imgBlock"><img alt="laugh" className="smallRun" src={runR}/></div>
